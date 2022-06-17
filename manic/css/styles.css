@@ -600,10 +600,74 @@ input[type=checkbox] {
         margin-bottom: 12px;
     }
 
+    /*  Do 574 PX  */
     @media (max-width: 574px) {
         body {
             line-height: 1.2;
         }
+    }
+
+    /*  Do 374 PX  */
+    @media (max-width: 374px) {
+        body {
+            font-size: .9rem;
+            line-height: 1.1;
+        }
+
+        .logo__img {
+            display: none;
+        }
+
+        .logo p {
+            font-size: 1.3rem;
+            margin-bottom: 1rem;
+        }
+
+        .carousel button {
+            font-size: 2.5rem;
+        }
+
+        .carousel ul li,
+        .carousel ul li p,
+        .slide p,
+        .slide p span {
+            font-size: 1rem;
+        }
+
+        .slide p,
+        .slide p span {
+            top: 28rem;
+        }
+
+        .service-top .icon i {
+            font-size: 2.5rem;
+        }
+
+        .service-top .icon h1 {
+            font-size: 1.6rem;
+        }
+
+        .service-top p {
+            font-size: .9rem;
+        }
+
+        .text-service h2 {
+            font-size: 1.2rem;
+        }
+
+        .text-service p {
+            font-size: .9rem;
+        }
+
+        .img-service img {
+            width: 100%;
+        }
+
+        .service-bottom {
+            font-size: 1rem;
+        }
+
+
     }
 
 }
