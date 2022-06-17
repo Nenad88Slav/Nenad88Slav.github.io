@@ -644,7 +644,7 @@ input[type=checkbox] {
 
         .carousel button {
             font-size: 3.5rem;
-            top: 42%;
+            top: 75%;
         }
     }
 
@@ -666,7 +666,7 @@ input[type=checkbox] {
 
         .carousel button {
             font-size: 3.5rem;
-            top: 42%;
+            top: 75%;
         }
 
         /* .carousel-button.prev {
@@ -728,6 +728,11 @@ input[type=checkbox] {
     @media (max-width: 340px) {
         .carousel ul li p {
             top: 62%;
+        }
+
+        .carousel button {
+            font-size: 3.5rem;
+            top: 78%;
         }
     }
 
