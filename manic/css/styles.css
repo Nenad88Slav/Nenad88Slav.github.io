@@ -607,8 +607,8 @@ input[type=checkbox] {
         }
     }
 
-    /*  Do 374 PX  */
-    @media (max-width: 374px) {
+    /*  Do 480 PX  */
+    @media (max-width: 480px) {
         body {
             font-size: .9rem;
             line-height: 1.1;
