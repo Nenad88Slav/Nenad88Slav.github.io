@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Odgajivacnica Manic</title>
+  <link rel="stylesheet" type="text/css" href="./css/normalize.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Roboto:wght@300;400;500;700;900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="./css/styles.css" />
+  <script src="https://kit.fontawesome.com/30fd59578e.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <!-- Navbar section -->
+
+  <nav class="navbar">
+    <!-- LOGO -->
+    <div class="logo">
+      <img src="./img/jazavicar2.png" alt="slika psa" class="logo__img">
+      <p><a href="./index.html" class="logo__text"><i class="fa-solid fa-paw"></i></a> <a href="./index.html"
+          class="logo__text">MANIĆ</a></p>
+      <img src="./img/braon128.png" alt="slika psa" class="logo__img" />
+    </div>
+    <!-- NAVIGATION MENU -->
+    <ul class="nav-links">
+      <!-- USING CHECKBOX HACK -->
+      <input type="checkbox" id="checkbox_toggle" />
+      <label for="checkbox_toggle" class="hamburger">&#9776;</label>
+      <!-- NAVIGATION MENUS -->
+      <div class="menu">
+        <!-- <i class="fa-solid fa-paw"></i> -->
+        <li><a href="#onama">O Nama</a></li>
+        <li><a href="#lagototo">Lagotto Romagnolo</a></li>
+        <!-- <img src="./img/braon128.png" alt="slika psa" class="logo__img" />  -->
+        <li class="services">
+          <a href="#jazavoo">Jazavičar</a>
+          <!-- DROPDOWN MENU -->
+          <!-- <ul class="dropdown">
+            <li><a href="/">Dropdown 1 </a></li>
+            <li><a href="/">Dropdown 2</a></li>
+            <li><a href="/">Dropdown 3</a></li>
+            <li><a href="/">Dropdown 4</a></li>
+          </ul> -->
+        </li>
+        <li><a href="/">Galerija</a></li>
+        <li><a href="/">Kontakt</a></li>
+      </div>
+    </ul>
+  </nav>
+
+  <!-- Carousel section -->
+  <section aria-label="Newest photos">
+    <div class="carousel" data-carousel>
+      <button class="carousel-button prev" data-carousel-button="prev">&#8656</button>
+      <button class="carousel-button next" data-carousel-button="next">&#8658</button>
+      <ul data-slides>
+        <li class="slide" data-active>
+          <p id="onama">LAGOTO ROMANJOLO - <span class="teal-span">LAGOTTO ROMAGNOLO</span> <br>Pas za traženje tartufa
+          </p>
+          <img src="./img/lagotto_high4.jpg" alt="Lagotto Romagnolo">
+        </li>
+        <li class="slide">
+          <p>Prirodno nadaren za potragu a njegov
+            veoma dobar nos je <br>ovu rasu učinio vrlo efikasnom za traženje tartufa.</p>
+          <img src="./img/lagotto_high2.jpg" alt="Lagotto Romagnolo">
+        </li>
+        <li class="slide">
+          <p>Raniji instinkt za lov je eliminisan, tako da njegov rad ne ometa miris divljači.</p>
+          <img src="./img/lagotto_high3.jpg" alt="Lagotto Romagnolo">
+        </li>
+        <li class="slide">
+          <p>Lagoto je poslušan, nije zahtevan, odan je, veoma privržen svom vlasniku i lako ga je trenirati. <br>Takođe
+            je i veoma dobar pas za pratnju i odličan čuvar.</p>
+          <img src="./img/lagotto_high1.jpg" alt="Lagotto Romagnolo">
+        </li>
+        <li class="slide">
+          <p>JAZAVIČAR - <span class="teal-span">DACHSHUND</span><br>Lovački pas za lov iznad i ispod zemlje</p>
+          <img src="./img/Dachshund1.jpg" alt="Slika jazavicara">
+        </li>
+        <li class="slide">
+          <p>Jazavičar, nazvan i „tackel“ i „dackel“, poznat je iz vremena srednjeg veka. <br>Od goniča uzgojeni su psi
+            koji
+            su trčali bez prestanka i bili su posebno podesni za rad pod zemljom.</p>
+          <img src="./img/Dachshund2.jpg" alt="Slika jazavicara">
+        </li>
+        <li class="slide">
+          <p>Od ovih niskonogih pasa, iskristalisali su se jazavičari koji su poznati kao svestrano upotrebljivi lovački
+            psi.</p>
+          <img src="./img/Dachshund3.jpg" alt="Slika jazavicara">
+        </li>
+        <li class="slide">
+          <p>U naravi prijateljski, nije plašljiv, ni agresivan, sa uravnoteženim temperamentom.<br> Pasionirani,
+            izdržljiv,
+            hitar lovački pas, finog nosa.</p>
+          <img src="./img/Dachshund4.jpg" alt="Slika jazavicara">
+        </li>
+      </ul>
+    </div>
+  </section>
+
+
+  <!-- Filler izmedju poglavlja -->
+  <div class="filler">
+    <div class="filler-container">
+
+    </div>
+  </div>
+
+
+  <!-- Odgajivacnica Manic -->
+  <div class="service-top">
+    <div class="icon">
+      <i class="fa-solid fa-dog"></i>
+      <h1 class="section-title">Odgajivačnica pasa <span>Manić</span></h1>
+    </div>
+
+    <p>Odgajivačnica pasa Manić poseduje dugogodišnju tradiciju uzgoja pasa.</p>
+    Naša
+    odgajivačnica smeštena je daleko od gradske gužve, u <br>predivnom i mirnom okruženju
+    na Starom naselju Šumice u Zrenjaninu.
+    <p id="lagototo">Odgajivačnica pasa Manić u svojoj ponudi ima dve rase pasa: <br>Jazavičare i Lagoto Romanjole.</p>
+  </div>
+
+  <!-- Filler izmedju poglavlja -->
+  <div class="filler">
+    <div class="filler-container">
+
+    </div>
+  </div>
+
+  <!-- Section Services Top -->
+  <section class="services-main">
+    <div class="service-bottom">
+
+      <div class="service-item">
+        <div class="text-service">
+          <h2>Lagotto Romagnolo</h2>
+          <p id="jazavoo">Lagotto Romagnolo je italijanska rasa pasa. Potiče u močvarama Delta del Po u istočnom delu
+            sub-regije
+            Romanja u Italiji. Ime potiče od "Romagnol can lagòt", što znači "vodeni pas". Njegova tradicionalna
+            funkcija bila je kao lovački pas, posebno retriver za vodu, ali zbog isušivanja velikih površina močvarnog
+            staništa u njenom području porekla, sada se češće koristi za lov na tartufe.</p>
+        </div>
+        <div class="img-service">
+          <img src="./img/lagotto_slika4.jpg" alt="Slika lagota" class="slika-lagoto">
+        </div>
+      </div>
+
+      <div class="service-item">
+        <div class="img-service">
+          <img src="./img/jazavicar_mali33333.jpg" alt="Slika lagota" class="slika-jazavicar">
+        </div>
+        <div class="text-service">
+          <h2>Jazavičar</h2>
+          <p>Prijateljski su nastrojeni psi, veoma izdržljivi i hitri, ali uravnoteženog temperamenta. Energični su,
+            hrabri, zaštitnički nastrojeni i inteligentni. Veoma se vezuju za svoje vlasnike i dobro “znaju ko su im
+            vlasnici”, što znači da će retko pokazati jednaku privrženost i vezanost za nekoga van porodice, kao što bi
+            to pokazala druga rasa poput retrivera.</p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- Filler izmedju poglavlja -->
+  <div class="filler">
+    <div class="filler-container">
+
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="footer-col">
+          <h4>O Nama</h4>
+          <ul>
+            <li><a href="#lagototo">Naši psi</a></li>
+            <li><a href="#">Galerija</a></li>
+            <li><a href="#onama">O Nama</a></li>
+            <li><a href="#">Kontakt</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Informacije</h4>
+          <ul>
+            <li><a href="#">Najčešća pitanja</a></li>
+            <li><a href="#">Pasoš za pse</a></li>
+            <li><a href="#">Kako poručiti</a></li>
+            <li><a href="#">Način plaćanja</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Kontakt</h4>
+          <ul>
+            <li class="white-adress"><i class="fa-solid fa-location-dot"></i> Sutjeska 11</li>
+            <li class="white-adress"><i class="fa-solid fa-location-dot"></i> 23000 Zrenjanin, Srbija</li>
+            <li><a href="#"><i class="fa-solid fa-phone"></i> +381(0) 63 572 527</a></li>
+            <li><a href="#"><i class="fa-solid fa-envelope"></i> info@odgajivacnicamanic.rs</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Pratite nas</h4>
+          <div class="social-links">
+            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#"><i class="fa-brands fa-tiktok"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+          </div>
+        </div>
+
+
+
+      </div>
+    </div>
+  </footer>
+
+  <!-- <div class="map">
+    <div class="container">
+      <li><a href="https://www.openstreetmap.org/#map=16/45.3882/20.4079">Mapa kuce</a>
+      </li>
+      <li><iframe width="425" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"
+          src="https://www.openstreetmap.org/export/embed.html?bbox=20.399250984191898%2C45.38360704873324%2C20.431501865386966%2C45.39623508634888&amp;layer=mapnik&amp;marker=45.38992142021259%2C20.41538715362549"
+          style="border: 1px solid black"></iframe><br /><small><a
+            href="https://www.openstreetmap.org/?mlat=45.3899&amp;mlon=20.4154#map=16/45.3899/20.4154&amp;layers=N">View
+            Larger Map</a></small></li>
+    </div>
+  </div> -->
+
+
+  <script src="./js/app.js" defer></script>
+</body>
+
+</html>

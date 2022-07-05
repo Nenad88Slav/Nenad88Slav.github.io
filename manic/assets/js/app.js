@@ -13,22 +13,4 @@ buttons.forEach(button => {
     slides.children[newIndex].dataset.active = true;
     delete activeSlide.dataset.active;
   })
-<<<<<<< HEAD
 })
-
-/* Galery 1 */
-
-// const images = document.querySelectorAll("[data-img-group]");
-// const closeButton = document.querySelector("[data-close-button]");
-// let fullImgBox = document.getElementById('fullImgBox');
-// let fullImg = document.getElementById('fullImg').src;
-
-// images.forEach(img => {
-//   img.addEventListener('click', () => {
-//     fullImgBox.style.display = 'flex';
-//     fullImg = this.img.src;
-//   })
-// })
-=======
-})
->>>>>>> 8bfecab49d89a93d2ee45aad5038d31b0e655598
