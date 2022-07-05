@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mansabi</title>
+  <link rel="stylesheet" type="text/css" href="./css/normalize.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Roboto:wght@300;400;500;700;900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="./css/styles.css" />
+  <script src="https://kit.fontawesome.com/30fd59578e.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <!-- Navbar section -->
+
+  <nav class="navbar">
+    <!-- LOGO -->
+    <div class="logo">
+      <!-- <img src="./img/jazavicar2.png" alt="slika psa" class="logo__img"> -->
+      <p><a href="./index.html" class="logo__text"><i class="fa-solid fa-paw"></i></a> <a href="./index.html"
+          class="logo__text">MANSABI</a></p>
+      <!-- <img src="./img/braon128.png" alt="slika psa" class="logo__img" /> -->
+    </div>
+    <!-- NAVIGATION MENU -->
+    <ul class="nav-links">
+      <!-- USING CHECKBOX HACK -->
+      <input type="checkbox" id="checkbox_toggle" />
+      <label for="checkbox_toggle" class="hamburger">&#9776;</label>
+      <!-- NAVIGATION MENUS -->
+      <div class="menu">
+        <!-- <i class="fa-solid fa-paw"></i> -->
+        <li><a href="./index.html">Home</a></li>
+        <li><a href="#about-us">About Us</a></li>
+        <!-- <img src="./img/braon128.png" alt="slika psa" class="logo__img" />  -->
+        <!-- <li class="services">
+          <a href="#jazavoo">Jazavičar</a>
+          <!-- DROPDOWN MENU -->
+        <!-- <ul class="dropdown">
+            <li><a href="/">Dropdown 1 </a></li>
+            <li><a href="/">Dropdown 2</a></li>
+            <li><a href="/">Dropdown 3</a></li>
+            <li><a href="/">Dropdown 4</a></li>
+          </ul> -->
+        <!-- </li> -->
+        <li><a href="#our-puppies">Our Puppies</a></li>
+        <li><a href="/">Contact</a></li>
+      </div>
+    </ul>
+  </nav>
+
+  <!-- Carousel section -->
+  <section aria-label="Newest photos">
+    <div class="carousel" data-carousel>
+      <button class="carousel-button prev" data-carousel-button="prev">&#8656</button>
+      <button class="carousel-button next" data-carousel-button="next">&#8658</button>
+      <ul data-slides>
+        <li class="slide" data-active>
+          <h2 id="onama">Welcome to <span class="teal-span">Mansabi</span></h2>
+          <p>Home of Lagotto Romagnolo and Dachshund</p>
+          <img src="./images/lagotto_high4.jpg" alt="Lagotto Romagnolo">
+        </li>
+        <li class="slide">
+          <h2 id="onama">Welcome to <span class="teal-span">Mansabi</span></h2>
+          <p>Home of Lagotto Romagnolo and Dachshund</p>
+          <img src="./images/lagotto_high2.jpg" alt="Lagotto Romagnolo">
+        </li>
+        <li class="slide">
+          <h2 id="onama">Welcome to <span class="teal-span">Mansabi</span></h2>
+          <p>Home of Lagotto Romagnolo and Dachshund</p>
+          <img src="./images/lagotto_high3.jpg" alt="Lagotto Romagnolo">
+        </li>
+        <li class="slide">
+          <h2 id="onama">Welcome to <span class="teal-span">Mansabi</span></h2>
+          <p>Home of Lagotto Romagnolo and Dachshund</p>
+          <img src="./images/lagotto_high1.jpg" alt="Lagotto Romagnolo">
+        </li>
+        <li class="slide">
+          <h2 id="onama">Welcome to <span class="teal-span">Mansabi</span></h2>
+          <p>Home of Lagotto Romagnolo and Dachshund</p>
+          <img src="./images/Dachshund1.jpg" alt="Slika jazavicara">
+        </li>
+        <li class="slide">
+          <h2 id="onama">Welcome to <span class="teal-span">Mansabi</span></h2>
+          <p>Home of Lagotto Romagnolo and Dachshund</p>
+          <img src="./images/Dachshund2.jpg" alt="Slika jazavicara">
+        </li>
+        <li class="slide">
+          <h2 id="onama">Welcome to <span class="teal-span">Mansabi</span></h2>
+          <p>Home of Lagotto Romagnolo and Dachshund</p>
+          <img src="./images/Dachshund3.jpg" alt="Slika jazavicara">
+        </li>
+        <li class="slide">
+          <h2 id="onama">Welcome to <span class="teal-span">Mansabi</span></h2>
+          <p>Home of Lagotto Romagnolo and Dachshund</p>
+          <img src="./images/Dachshund4.jpg" alt="Slika jazavicara">
+        </li>
+      </ul>
+    </div>
+  </section>
+
+
+  <!-- Filler izmedju poglavlja -->
+  <div class="filler">
+    <div id="about-us" class="filler-container">
+
+    </div>
+  </div>
+
+
+  <!-- Odgajivacnica Manic -->
+  <div class="service-top">
+    <div class="icon">
+      <i class="fa-solid fa-dog"></i>
+      <h1 class="section-title">ABOUT <span>MANSABI</span></h1>
+    </div>
+
+    <p>We are kennel located in Serbia. Our kennel has a long tradition of dog breeding.</p>
+    The kennel is located away from the city crowds, <br>in a beautiful and peaceful environment
+    at the Old Settlement of Šumice <br>in the city of Zrenjanin.
+    <p id="lagototo">Our kennel offers two breeds of dogs: <br>Laggoto Romagnolo and Dachshund.</p>
+  </div>
+
+  <!-- Filler izmedju poglavlja -->
+  <div class="filler">
+    <div id="our-puppies" class="filler-container">
+
+    </div>
+  </div>
+
+  <!-- Section Services Top -->
+  <section class="services-main">
+    <div class="service-bottom">
+
+      <div class="service-item">
+        <div class="text-service">
+          <h2>Lagotto Romagnolo</h2>
+          <p id="jazavoo">The Lagotto Romagnolo is an Italian breed of dog. It originates in the marshlands of the Delta
+            del Po in the eastern part of the Romagna sub-region of Italy. The name derives from Romagnol can lagòt,
+            meaning "water dog". Its traditional function was as a gun dog, specifically a water retriever; since the
+            drainage of large areas of wetland habitat in its area of origin, it is now more often used to hunt for
+            truffles.</p>
+        </div>
+        <div class="img-service">
+          <img src="./images/lagotto_slika4.jpg" alt="Slika lagota" class="slika-lagoto">
+        </div>
+      </div>
+
+      <div class="service-item">
+        <div class="img-service">
+          <img src="./images/jazavicar_mali33333.jpg" alt="Slika lagota" class="slika-jazavicar">
+        </div>
+        <div class="text-service">
+          <h2>Dachshund (Teckel)</h2>
+          <p>The dachshund, also known as the wiener dog, badger dog, and sausage dog, is a short-legged, long-bodied,
+            hound-type dog breed. The dog may be smooth-haired, wire-haired, or long-haired. The standard-sized
+            dachshund was developed to scent, chase, and flush out badgers and other burrow-dwelling animals. The
+            miniature dachshund was bred to hunt small animals such as rabbits.</p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Tekst Galerije -->
+
+
+  <!-- Galery Section-->
+  <section>
+    <div class="gallery-heading">
+      <div class="gallery-heading-container">
+        <h2>Meet our team</h2>
+        <h3>Lagotto Romagnolo</h3>
+      </div>
+      <p>Boys</p>
+    </div>
+
+    <div class="img-gallery main-gallery">
+      <div class="main-img-wrapper">
+        <a href="./bruno.html"><img src="./images/leo1.png" alt="slika leoparda"></a>
+        <p>MBISS BISS INTCH Benvenuto Little Wish</p>
+      </div>
+      <div class="main-img-wrapper">
+        <img src="./images/ape23.png" alt="slika majmuna">
+        <p>CH Lab'SPB Gazprom</p>
+      </div>
+      <div class="main-img-wrapper">
+        <img src="./images/giraffe23.png" alt="slika slona">
+        <p>Loretta D'Franco Act Of Ultimate Trust</p>
+      </div>
+      <div class="main-img-wrapper">
+        <img src="./images/slon23.png" alt="slika tigra">
+        <p>Tweedledum Shall We Dance</p>
+      </div>
+      <div class="main-img-wrapper">
+        <img src="./images/tiger23.png" alt="slika zebre">
+        <p>Ironman Labando</p>
+      </div>
+      <div class="main-img-wrapper">
+        <img src="./images/zebra23.png" alt="slika zirafe">
+        <p>JBISS CH Maya Lab's House BL</p>
+      </div>      
+      
+    </div>
+  </section>
+
+
+  <!-- Filler izmedju poglavlja -->
+  <div class="filler">
+    <div class="filler-container">
+
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="footer-col">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="#about-us">About Us</a></li>
+            <li><a href="#our-puppies">Our Puppies</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
+        <!-- Ovaj je visak -->
+        <!-- <div class="footer-col">
+          <h4>Info</h4>
+          <ul>
+            <li><a href="#">Frequently Asked Questions</a></li>
+            <li><a href="#">European Pet Passport</a></li>
+            <li><a href="#">How To Order</a></li>
+            <li><a href="#">Payment</a></li>
+          </ul>
+        </div> -->
+
+        <div class="footer-col">
+          <h4>Contact</h4>
+          <ul>
+            <li class="white-adress"><i class="fa-solid fa-location-dot"></i> Sutjeska 11</li>
+            <li class="white-adress"><i class="fa-solid fa-location-dot"></i> 23000 Zrenjanin, Serbia</li>
+            <li><a href="tel:+38163572527"><i class="fa-solid fa-phone"></i> +381 63 572 527</a></li>
+            <li><a href="#"><i class="fa-solid fa-envelope"></i> info@mansabi.com</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Follow Us</h4>
+          <div class="social-links">
+            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#"><i class="fa-brands fa-tiktok"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+          </div>
+        </div>
+
+
+
+      </div>
+    </div>
+  </footer>
+
+  <!-- <div class="map">
+    <div class="container">
+      <li><a href="https://www.openstreetmap.org/#map=16/45.3882/20.4079">Mapa kuce</a>
+      </li>
+      <li><iframe width="425" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"
+          src="https://www.openstreetmap.org/export/embed.html?bbox=20.399250984191898%2C45.38360704873324%2C20.431501865386966%2C45.39623508634888&amp;layer=mapnik&amp;marker=45.38992142021259%2C20.41538715362549"
+          style="border: 1px solid black"></iframe><br /><small><a
+            href="https://www.openstreetmap.org/?mlat=45.3899&amp;mlon=20.4154#map=16/45.3899/20.4154&amp;layers=N">View
+            Larger Map</a></small></li>
+    </div>
+  </div> -->
+
+ 
+
+  <div class="copyright">
+    <div class="copyright-container">
+      
+      <hr>
+      
+      <div class="logo logo-down">
+        <!-- <img src="./img/jazavicar2.png" alt="slika psa" class="logo__img"> -->
+        <p><a href="./index.html" class="logo__text"><i class="fa-solid fa-paw"></i></a> <a href="./index.html"
+            class="logo__text">MANSABI</a></p>
+        <!-- <img src="./img/braon128.png" alt="slika psa" class="logo__img" /> -->
+      </div>
+
+      <p>Do not use any content of the site without permission</p>
+      <h4>Copyright © 2022 <span>Mansabi</span> <br> WebDev and Design by <a class="copyright-link" href="https://nenad88slav.github.io/portfolio/">WebEntuzijasta</a></h4>
+
+    </div>
+  </div>
+
+
+  <script src="./js/app.js" defer></script>
+</body>
+
+</html>
