@@ -1399,7 +1399,7 @@ table, th, td {
         max-width: 100%;
         position: relative;
         display: grid;
-        grid-template-columns: auto;
+        grid-template-columns: 100%;
         grid-template-rows: auto;
         grid-template-areas: 
         "form" 
@@ -1411,7 +1411,6 @@ table, th, td {
         width: 100%;
         min-height: 400px;
         padding: 0;
-
     }
 
     .formBox .row50 {
