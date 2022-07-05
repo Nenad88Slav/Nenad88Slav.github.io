@@ -166,14 +166,11 @@ input[type=checkbox] {
     position: relative;
 }
 
-<<<<<<< HEAD
 .carousel-new {
     width: 100vw;
     height: 90vh;
 }
 
-=======
->>>>>>> 8bfecab49d89a93d2ee45aad5038d31b0e655598
 .slide {
     position: absolute;
     inset: 0;
@@ -236,7 +233,6 @@ input[type=checkbox] {
     right: 2rem;
 }
 
-<<<<<<< HEAD
 .carousel ul li h1 {
     position: absolute;
     display: block;
@@ -252,8 +248,6 @@ input[type=checkbox] {
     text-transform: uppercase;
 }
 
-=======
->>>>>>> 8bfecab49d89a93d2ee45aad5038d31b0e655598
 .carousel ul li h2 {
     position: absolute;
     display: block;
@@ -263,11 +257,7 @@ input[type=checkbox] {
     text-align: center;
     padding: 0 1.5rem;
     /* bottom: 10rem; */
-<<<<<<< HEAD
     top: 49%;
-=======
-    top: 50%;
->>>>>>> 8bfecab49d89a93d2ee45aad5038d31b0e655598
     line-height: 1.4;
     text-shadow: 0 1px 2px rgb(0 0 0 / 60%);
     text-transform: uppercase;
@@ -283,11 +273,7 @@ input[type=checkbox] {
     text-align: center;
     padding: 0 1.5rem;
     /* bottom: 8rem; */
-<<<<<<< HEAD
     top: 58%;
-=======
-    top: 56%;
->>>>>>> 8bfecab49d89a93d2ee45aad5038d31b0e655598
     line-height: 1.4;
     text-shadow: 0 1px 2px rgb(0 0 0 / 60%);
     text-transform: uppercase;
@@ -366,24 +352,17 @@ input[type=checkbox] {
     display: flex;
     flex-direction: row;
     align-items: center;
-<<<<<<< HEAD
     padding: 2rem 1rem;
     min-width: 250px;
     max-width: 1100px;
-=======
-    padding: 2rem;
->>>>>>> 8bfecab49d89a93d2ee45aad5038d31b0e655598
 }
 
 .text-service h2 {
     color: var(--clr-teal);
 }
 
-<<<<<<< HEAD
 
 
-=======
->>>>>>> 8bfecab49d89a93d2ee45aad5038d31b0e655598
 .slika-lagoto {
     border-radius: 50% 50%;
 }
@@ -421,7 +400,6 @@ input[type=checkbox] {
     background-color: var(--clr-light-filler);
 }
 
-<<<<<<< HEAD
 /* Generalije za psa posebno sa slikom */
 .generalije {
     width: 90%;
@@ -612,8 +590,6 @@ table, th, td {
 }
 
 
-=======
->>>>>>> 8bfecab49d89a93d2ee45aad5038d31b0e655598
 /* Footer */
 .footer {
     background-color: #24262b;
@@ -645,10 +621,6 @@ table, th, td {
     margin-bottom: 1.5rem;
     font-weight: 500;
     position: relative;
-<<<<<<< HEAD
-=======
-    /* background-color: red; */
->>>>>>> 8bfecab49d89a93d2ee45aad5038d31b0e655598
 }
 
 .footer-col h4::before {
@@ -656,10 +628,6 @@ table, th, td {
     position: absolute;
     left: 0;
     bottom: -10px;
-<<<<<<< HEAD
-=======
-    /* background-color: #e91e63; */
->>>>>>> 8bfecab49d89a93d2ee45aad5038d31b0e655598
     background-color: var(--clr-teal);
     height: 2px;
     box-sizing: border-box;
@@ -706,7 +674,6 @@ table, th, td {
     background-color: #ffffff;
 }
 
-<<<<<<< HEAD
 .footer-col .social-links a:nth-last-child(4):hover {
     color: #3b5998;
 }
@@ -734,8 +701,6 @@ table, th, td {
 }
 
 
-=======
->>>>>>> 8bfecab49d89a93d2ee45aad5038d31b0e655598
 .fa-location-dot {
     color: #bbbbbb;
 }
@@ -748,7 +713,6 @@ table, th, td {
     color: #bbbbbb;
 }
 
-<<<<<<< HEAD
 /* COPYRIGHT Section */
 
 .copyright {
@@ -1016,9 +980,6 @@ table, th, td {
     width: 100%;
     height: 100%;
 }
-=======
-
->>>>>>> 8bfecab49d89a93d2ee45aad5038d31b0e655598
 
 
 /* responsive */
@@ -1044,13 +1005,8 @@ table, th, td {
 /* APPLYING MEDIA QUERIES */
 
 
-<<<<<<< HEAD
 /*  OD 1025 PX pa navise  */
 @media (min-width: 1025px) {
-=======
-/*  OD 1001 PX pa navise  */
-@media (min-width: 1001px) {
->>>>>>> 8bfecab49d89a93d2ee45aad5038d31b0e655598
     .menu {
         z-index: 4;
     }
@@ -1072,7 +1028,6 @@ table, th, td {
     }
 }
 
-<<<<<<< HEAD
 /*  Od 1024 PX do 1288 PX  */
 @media (max-width: 1288px) {
     .contact-box {
@@ -1094,10 +1049,6 @@ table, th, td {
 
 /*  Od 768 PX do 1024 PX  */
 @media (max-width: 1024px) {
-=======
-/*  Od 768 PX do 1000 PX  */
-@media (max-width: 1000px) {
->>>>>>> 8bfecab49d89a93d2ee45aad5038d31b0e655598
     .navbar {
         display: flex;
         flex-direction: column;
@@ -1123,7 +1074,6 @@ table, th, td {
     .service-bottom .service-item h2 {
         margin-bottom: 12px;
     }
-<<<<<<< HEAD
 
     .generalije-container {
         width: 100%;
@@ -1178,10 +1128,6 @@ table, th, td {
 }
 
 
-=======
-}
-
->>>>>>> 8bfecab49d89a93d2ee45aad5038d31b0e655598
 /*  Do 768 PX  */
 @media (max-width: 768px) {
     .menu {
@@ -1228,13 +1174,6 @@ table, th, td {
         z-index: 4;
     }
 
-<<<<<<< HEAD
-=======
-    /* .dropdown li {
-
-    } */
-
->>>>>>> 8bfecab49d89a93d2ee45aad5038d31b0e655598
     .dropdown li:hover {
         background-color: var(--clr-teal-hover);
     }
@@ -1264,7 +1203,6 @@ table, th, td {
         margin-bottom: 12px;
     }
 
-<<<<<<< HEAD
     .gallery-heading-container h2 {
         font-size: 3rem;
         padding-top: 5rem;
@@ -1457,111 +1395,3 @@ table, th, td {
     }
 }
 
-=======
-    /*  Do 574 PX  */
-    @media (max-width: 574px) {
-        body {
-            line-height: 1.2;
-        }
-
-        .logo p {
-            /* font-size: 1.3rem; */
-            margin-bottom: 1rem;
-        }
-
-        .carousel button {
-            font-size: 3.5rem;
-            top: 75%;
-        }
-    }
-
-    /*  Do 480 PX  */
-    @media (max-width: 480px) {
-        body {
-            font-size: .9rem;
-            line-height: 1.1;
-        }
-
-        .logo__img {
-            display: none;
-        }
-
-        .logo p {
-            /* font-size: 1.3rem; */
-            margin-bottom: 1rem;
-        }
-
-        .carousel button {
-            font-size: 3.5rem;
-            top: 75%;
-        }
-
-        /* .carousel-button.prev {
-            top: 520px;
-        }
-
-        .carousel-button.next {
-            top: 520px;
-        } */
-
-        .carousel ul li h2 {
-            font-size: 1.5rem;
-        }
-
-        .carousel ul li,
-        .carousel ul li p,
-        .slide p,
-        .slide p span {
-            font-size: 1rem;
-        }
-
-        .slide p,
-        .slide p span {
-            top: 33rem;
-        }
-
-        .service-top .icon i {
-            font-size: 2.5rem;
-        }
-
-        .service-top .icon h1 {
-            font-size: 1.6rem;
-        }
-
-        .service-top p {
-            font-size: .9rem;
-        }
-
-        .text-service h2 {
-            font-size: 1.2rem;
-        }
-
-        .text-service p {
-            font-size: .9rem;
-        }
-
-        .img-service img {
-            width: 100%;
-        }
-
-        .service-bottom {
-            font-size: 1rem;
-        }
-
-
-    }
-
-    /*  Do 340 PX  */
-    @media (max-width: 340px) {
-        .carousel ul li p {
-            top: 62%;
-        }
-
-        .carousel button {
-            font-size: 3.5rem;
-            top: 78%;
-        }
-    }
-
-}
->>>>>>> 8bfecab49d89a93d2ee45aad5038d31b0e655598

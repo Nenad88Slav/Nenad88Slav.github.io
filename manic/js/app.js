@@ -13,7 +13,6 @@ buttons.forEach(button => {
     slides.children[newIndex].dataset.active = true;
     delete activeSlide.dataset.active;
   })
-<<<<<<< HEAD
 })
 
 /* Galery 1 */
@@ -29,6 +28,3 @@ buttons.forEach(button => {
 //     fullImg = this.img.src;
 //   })
 // })
-=======
-})
->>>>>>> 8bfecab49d89a93d2ee45aad5038d31b0e655598
