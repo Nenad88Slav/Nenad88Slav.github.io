@@ -1235,6 +1235,20 @@ table, th, td {
 }
 
 
+@media (max-width: 640px) {
+    .contact-box {
+        max-width: 100%;
+        position: relative;
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: auto;
+        grid-template-areas: 
+        "form" 
+        "info" 
+        "map";
+    }
+}
+
 
 /*  Do 574 PX  */
 @media (max-width: 574px) {
@@ -1271,6 +1285,18 @@ table, th, td {
         font-size: 1.3rem;
         width: 94%;
         margin: 0 auto;
+    }
+
+    .contact-box {
+        max-width: 100%;
+        position: relative;
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: auto;
+        grid-template-areas: 
+        "form" 
+        "info" 
+        "map";
     }
 }
 
