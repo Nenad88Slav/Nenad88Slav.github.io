@@ -14,3 +14,17 @@ buttons.forEach(button => {
     delete activeSlide.dataset.active;
   })
 })
+
+/* Galery 1 */
+
+// const images = document.querySelectorAll("[data-img-group]");
+// const closeButton = document.querySelector("[data-close-button]");
+// let fullImgBox = document.getElementById('fullImgBox');
+// let fullImg = document.getElementById('fullImg').src;
+
+// images.forEach(img => {
+//   img.addEventListener('click', () => {
+//     fullImgBox.style.display = 'flex';
+//     fullImg = this.img.src;
+//   })
+// })
