@@ -2,354 +2,160 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
-  <title>Web Entusiast</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website Kevin Powell</title>
+    <link rel="stylesheet" type="text/css" href="./css/normalize.css">
+    <!-- Update your own fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400&family=Source+Sans+Pro:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="./css/styles.css" />
 </head>
 
 <body>
-  <!-- Header -->
-  <section id="header">
-    <div class="header container">
-      <div class="nav-bar">
-        <div class="brand">
-          <a href="#hero">
-            <h1><span>W</span>eb <span>E</span>ntusiast</h1>
-          </a>
+    <header>
+        <div class="logo">
+            <img src="./img/race-car-309123_960_720.png" alt="" />
         </div>
-        <div class="nav-list">
-          <div class="hamburger">
-            <div class="bar"></div>
-          </div>
-          <ul>
-            <li><a href="#hero" data-after="Home">Home</a></li>
-            <li><a href="#services" data-after="Services">Services</a></li>
-            <li><a href="#projects" data-after="Projects">Projects</a></li>
-            <li><a href="#about" data-after="About">About</a></li>
-            <li><a href="#contact" data-after="Contact">Contact</a></li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!-- End of Header -->
+        <button class="nav-toggle" aria-label="toggle navigation">
+            <span class="hamburger"></span>
+        </button>
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="" nav__item><a href="#" class="nav__link">Home</a></li>
+                <li class="" nav__item><a href="#services" class="nav__link">My Services</a></li>
+                <li class="" nav__item><a href="#about" class="nav__link">About Me</a></li>
+                <li class="" nav__item><a href="#work" class="nav__link">My Work</a></li>
 
-  <!-- Hero Section -->
-  <section id="hero">
-    <div class="hero container">
-      <div>
-        <h1>Hello,<span></span></h1>
-        <h1>My Name is<span></span></h1>
-        <h1>Nenad<span></span></h1>
-        <a href="#projects" type="button" class="cta">Portfolio</a>
-      </div>
-    </div>
-  </section>
+            </ul>
+        </nav>
+    </header>
 
-  <!-- End of Hero Section -->
+    <!-- Introduction section -->
+    <section class="intro" id="home">
+        <h1 class="section__title section__title--intro">
+            Hi, I am <strong>Nenad <span>Stojkovic</span></strong>
+        </h1>
+        <p class="section__subtitle section__subtitle--intro">front-end developer</p>
+        <img src="./img/man1.jpg" alt="a picture of John Smith smiling" class="intro__img">
+    </section>
 
-  <!-- Service Section -->
-  <section id="services">
-    <div class="services container">
-
-      <div class="service-top">
-        <h1 class="section-title">Serv<span>i</span>ces</h1>
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Placeat est aliquam expedita quisquam dolorem.
-          Natus incidunt, quo ducimus nihil minus animi sapiente ipsum ex, odit aperiam tenetur accusantium
-          necessitatibus cum.</p>
-      </div>
-
-      <div class="service-bottom">
-
-        <div class="service-item">
-          <div class="icon"><img src="./images/icons8-design-64_pen.png" alt="picture of paper and pen"></div>
-          <h2>Web Design</h2>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur officia harum architecto, illo
-            laudantium quam. Natus incidunt, quo ducimus nihil minus animi sapiente ipsum ex, odit aperiam tenetur
-            accusantium necessitatibus cum.</p>
-        </div>
-        <div class="service-item">
-          <div class="icon"><img src="./images/icons8-repair-64.png" alt="picture of paper and pen"></div>
-          <h2>Seo Optimization</h2>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur officia harum architecto, illo
-            laudantium quam. Natus incidunt, quo ducimus nihil minus animi sapiente ipsum ex, odit aperiam tenetur
-            accusantium necessitatibus cum.</p>
-        </div>
-        <div class="service-item">
-          <div class="icon"><img src="./images/icons8-repair-64 home.png" alt="picture of paper and pen"></div>
-          <h2>Website Maintanance</h2>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur officia harum architecto, illo
-            laudantium quam. Natus incidunt, quo ducimus nihil minus animi sapiente ipsum ex, odit aperiam tenetur
-            accusantium necessitatibus cum.</p>
-        </div>
-        <div class="service-item">
-          <div class="icon"><img src="./images/icons8-hosting-64.png" alt="picture of paper and pen"></div>
-          <h2>Upload Website to Server</h2>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur officia harum architecto, illo
-            laudantium quam. Natus incidunt, quo ducimus nihil minus animi sapiente ipsum ex, odit aperiam tenetur
-            accusantium necessitatibus cum.</p>
+    <!-- My services -->
+    <section class="my-services" id="services">
+        <h2 class="section__title section__title--services">What I do</h2>
+        <div class="services">
+            <!-- /service -->
+            <div class="service">
+                <h3>Design + Development</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque, a? Enim eum minus atque inventore.
+                    Maxime omnis similique veritatis laboriosam quibusdam error inventore iste! Reiciendis architecto
+                    eum voluptatem recusandae laborum.</p>
+            </div>
+            <!-- /service -->
+            <div class="service">
+                <h3>E-Commerce</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque neque asperiores enim cupiditate
+                    assumenda laudantium ab explicabo, at impedit sunt quis praesentium illum omnis ipsam modi
+                    distinctio, ratione dolore veniam.</p>
+            </div>
+            <!-- /service -->
+            <div class="service">
+                <h3>WordPress</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae modi labore minus dolores voluptates.
+                    Debitis, unde assumenda maxime exercitationem aliquam molestiae laudantium asperiores a ipsam
+                    architecto nisi, atque doloribus libero!</p>
+            </div>
         </div>
 
-      </div>
+        <a href="#work" class="btn">see my work</a>
+    </section>
 
-    </div>
-  </section>
+    <!-- About Me -->
 
-  <!-- End of Service Section -->
+    <section class="about-me" id="about">
+        <h2 class="section__title section__title--about">Who I am</h2>
+        <p class="section__subtitle section__subtitle--about">Designer & developer based out of Zrenjanin</p>
 
-
-  <!-- Projects Section -->
-  <section id="projects">
-    <div class="projects container">
-
-      <div class="projects-header">
-        <h1 class="section-title">Recent <span>Projects</span></h1>
-      </div>
-
-      <div class="all-projects">
-
-        <div class="project-item">
-          <div class="project-info">
-            <h2>Project 1</h2>
-            <h3>Coding is love.</h3>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dignissimos est id ipsum optio nobis eius quis.
-              Architecto quae, adipisci, deserunt corrupti sit iure dicta iusto soluta, esse possimus temporibus vero?
-            </p>
-          </div>
-          <div class="project-img">
-            <img src="./images/project-1new.jpg" alt="image of pen and paper">
-          </div>
+        <div class="about-me__body">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem natus esse doloribus harum nostrum
+                ducimus sed soluta quibusdam! Vel dignissimos iste nihil quam provident culpa necessitatibus, corporis
+                exercitationem reiciendis quidem.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, rerum sed? Nemo explicabo, recusandae
+                dolore est nostrum similique nihil, repudiandae, temporibus qui aliquam eveniet iure ipsa tempore
+                voluptatibus nam molestias?</p>
         </div>
 
-        <div class="project-item">
-          <div class="project-info">
-            <h2>Project 2</h2>
-            <h3>Coding is love.</h3>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dignissimos est id ipsum optio nobis eius quis.
-              Architecto quae, adipisci, deserunt corrupti sit iure dicta iusto soluta, esse possimus temporibus vero?
-            </p>
-          </div>
-          <div class="project-img">
-            <img src="./images/project-2new.jpg" alt="image of pen and paper">
-          </div>
+        <img src="./img/man2.jpg" alt="John flying in airplane" class="about-me__img" />
+    </section>
+
+    <!-- My Work -->
+    <section class="my-work" id="work">
+        <h2 class="section__title">My work</h2>
+        <p class="section__subtitle">You can see my working projects</p>
+
+        <div class="portfolio">
+            <!-- Portfolio item 01 -->
+            <a href="#" class="portfolio__item">
+                <img src="./img/photo-4.jpg" alt="laptop on floor" class="portfolio__img" />
+            </a>
+            <!-- Portfolio item 02 -->
+            <a href="#" class="portfolio__item">
+                <img src="./img/photo-5.jpg" alt="books on shelf" class="portfolio__img" />
+            </a>
+            <!-- Portfolio item 03 -->
+            <a href="#" class="portfolio__item">
+                <img src="./img/photo-6.jpg" alt="flowers in garden" class="portfolio__img" />
+            </a>
+            <!-- Portfolio item 04 -->
+            <a href="#" class="portfolio__item">
+                <img src="./img/photo-7.jpg" alt="purple bicycle" class="portfolio__img" />
+            </a>
+            <!-- Portfolio item 05 -->
+            <a href="#" class="portfolio__item">
+                <img src="./img/photo-8.jpg" alt="hiking" class="portfolio__img" />
+            </a>
+            <!-- Portfolio item 06 -->
+            <a href="#" class="portfolio__item">
+                <img src="./img/photo-9.jpg" alt="horses in lake" class="portfolio__img" />
+            </a>
+            <!-- Portfolio item 07 -->
+            <a href="#" class="portfolio__item">
+                <img src="./img/photo-10.jpg" alt="gladiator helmet" class="portfolio__img" />
+            </a>
+            <!-- Portfolio item 08 -->
+            <a href="#" class="portfolio__item">
+                <img src="./img/photo-11.jpg" alt="firefighters in action" class="portfolio__img" />
+            </a>
+            <!-- Portfolio item 09 -->
+            <a href="#" class="portfolio__item">
+                <img src="./img/photo-12.jpg" alt="brother and sister holding hands" class="portfolio__img" />
+            </a>
+            <!-- Portfolio item 10 -->
+            <a href="#" class="portfolio__item">
+                <img src="./img/photo-13.jpg" alt="children winning in video game" class="portfolio__img" />
+            </a>
         </div>
+    </section>
 
-        <div class="project-item">
-          <div class="project-info">
-            <h2>Project 3</h2>
-            <h3>Coding is love.</h3>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dignissimos est id ipsum optio nobis eius quis.
-              Architecto quae, adipisci, deserunt corrupti sit iure dicta iusto soluta, esse possimus temporibus vero?
-            </p>
-          </div>
-          <div class="project-img">
-            <img src="./images/hero-4new.jpg" alt="image of pen and paper">
-          </div>
-        </div>
+    <!-- Footer -->
+    <footer>
+        <!-- replacwe with your own email adress -->
+        <a href="mailto:n.stojkovic88@gmail.com" class="footer-link">n.stojkovic88@gmail.com</a>
+        <ul class="social-list">
+            <li class="social-list__item"><a class="social-list__link" href="https://codepen.io">a</a></li>
+            <li class="social-list__item"><a class="social-list__link" href="https://dribble.com">b</a></li>
+            <li class="social-list__item"><a class="social-list__link" href="https://twitter.com">c</a></li>
+            <li class="social-list__item"><a class="social-list__link" href="https://github.com">d</a></li>
+        </ul>
+    </footer>
 
-        <div class="project-item">
-          <div class="project-info">
-            <h2>Project 4</h2>
-            <h3>Coding is love.</h3>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dignissimos est id ipsum optio nobis eius quis.
-              Architecto quae, adipisci, deserunt corrupti sit iure dicta iusto soluta, esse possimus temporibus vero?
-            </p>
-          </div>
-          <div class="project-img">
-            <img src="./images/calculator.jpg" alt="image of pen and paper">
-          </div>
-        </div>
-
-        <div class="project-item">
-          <div class="project-info">
-            <h2>Project 5</h2>
-            <h3>Coding is love.</h3>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dignissimos est id ipsum optio nobis eius quis.
-              Architecto quae, adipisci, deserunt corrupti sit iure dicta iusto soluta, esse possimus temporibus vero?
-            </p>
-          </div>
-          <div class="project-img">
-            <img src="./images/game-new.jpg" alt="image of pen and paper">
-          </div>
-        </div>
-
-      </div>
-
-    </div>
-  </section>
-
-  <!-- End of Projects Section -->
-
-
-  <!-- About Section -->
-  <section id="about">
-    <div class="about container">
-      <div class="col-left">
-        <div class="about-img">
-          <img src="./images/hero-5new.jpg" alt="image of man coding on laptop">
-        </div>
-      </div>
-      <div class="col-right">
-        <h1 class="section-title">What I <span>Do</span></h1>
-        <h2>Front-end Developer</h2>
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iure beatae exercitationem cumque pariatur
-          molestias quo distinctio soluta corporis autem vel iste ex, reprehenderit aperiam! Quasi eveniet et aliquam
-          cum rerum.</p>
-        <a href="#" class="cta">Download Resume</a>
-      </div>
-    </div>
-  </section>
-  <!-- End of About Section -->
-
-
-  <!-- Contact Section -->
-  <section id="contact">
-    <div class="contact container">
-
-      <div>
-        <h1 class="section-title">Contact <span>info</span></h1>
-      </div>
-
-      <div class="contact-items">
-
-        <div class="contact-item">
-          <div class="icon"><img src="./images/icons8-telephone-96.png" alt="telephone"></div>
-
-          <div class="contact-info">
-            <h1>Phone</h1>
-            <h2><a href="tel:+38163123123">+38163123123</a></h2>
-          </div>
-        </div>
-
-        <div class="contact-item">
-          <div class="icon"><img src="./images/icons8-mail-64.png" alt="mail envelope"></div>
-
-          <div class="contact-info">
-            <h1>Email</h1>
-            <h2><a href="#send">info@webentusiast.com</a></h2>
-          </div>
-        </div>
-
-        <div class="contact-item">
-          <div class="icon"><img src="./images/icons8-address-80.png" alt="telephone"></div>
-
-          <div class="contact-info">
-            <h1>Address</h1>
-            <h2>23000 Zrenjanin</h2>
-            <h2>SERBIA</h2>
-          </div>
-        </div>
-
-      </div>
-
-    </div>
-  </section>
-
-  <!-- End of Contact Section -->
-
-  <!-- Send Section -->
-  <section id="send">
-    <div class="send container">
-
-      <h1>Send me <span>email</span></h1>
-
-      <div class="row100">
-        <div class="col">
-          <div class="inputBox">
-            <input type="text" name="firstName" required="required">
-            <span class="text">First Name</span>
-            <span class="line"></span>
-          </div>
-        </div>
-      </div>
-
-      <div class="row100">
-        <div class="col">
-          <div class="inputBox">
-            <input type="text" name="lastName" required="required">
-            <span class="text">Last Name</span>
-            <span class="line"></span>
-          </div>
-        </div>
-      </div>
-
-      <div class="row100">
-        <div class="col">
-          <div class="inputBox">
-            <input type="email" name="email" required="required">
-            <span class="text">Email</span>
-            <span class="line"></span>
-          </div>
-        </div>
-      </div>
-
-      <div class="row100">
-        <div class="col">
-          <div class="inputBox">
-            <input type="text" name="mobile" required="required">
-            <span class="text">Mobile</span>
-            <span class="line"></span>
-          </div>
-        </div>
-      </div>
-
-      <div class="row100">
-        <div class="col">
-          <div class="inputBox textarea">
-            <textarea required="required"></textarea>
-            <span class="text">Type your message here...</span>
-            <span class="line"></span>
-          </div>
-        </div>
-      </div>
-
-      <div class="row100">
-        <div class="col">
-          <input type="submit" value="Send">
-        </div>
-      </div>
-
-    </div>
-  </section>
-  <!-- End of Send Section -->
-
-
-  <!-- Footer Section -->
-  <section id="footer">
-    <div class="footer container">
-      <div class="brand"><a href="#hero">
-          <h1><span>W</span>eb <span>E</span>ntusiast</h1>
-        </a></div>
-      <h2>Let Me Create Your Website</h2>
-      <div class="social-icon">
-
-        <div class="social-item">
-          <a href="#"><img src="./images/icons8-facebook-100.png" alt="facebook"></a>
-        </div>
-
-        <div class="social-item">
-          <a href="#"><img src="./images/icons8-instagram-96.png" alt="facebook"></a>
-        </div>
-
-        <div class="social-item">
-          <a href="#"><img src="./images/icons8-twitter-circled-100.png" alt="facebook"></a>
-        </div>
-
-        <div class="social-item">
-          <a href="#"><img src="./images/icons8-linkedin-circled-100.png" alt="facebook"></a>
-        </div>
-
-      </div>
-      <p>Copyright © 2022 Web Entusiast. All rights reserved</p>
-    </div>
-  </section>
-  <!-- End of Footer Section -->
-
-
-  <script src="./app.js" defer></script>
-
+    <script src="https://kit.fontawesome.com/30fd59578e.js" crossorigin="anonymous"></script>
+    <script src="app.js"></script>
 </body>
 
 </html>
