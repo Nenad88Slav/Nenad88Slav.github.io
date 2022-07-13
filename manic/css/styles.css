@@ -242,7 +242,7 @@ input[type=checkbox] {
     display: block;
     width: 100%;
     color: var(--clr-light);
-    font-size: 2.2rem;
+    font-size: 4rem;
     text-align: center;
     padding: 0 1.5rem;
     /* bottom: 10rem; */
@@ -1067,6 +1067,10 @@ td {
 
 /*  Od 768 PX do 1024 PX  */
 @media (max-width: 1024px) {
+    .carousel ul li h1 {
+        font-size: 3rem;
+    }
+
     .carousel ul li h2 {
         font-size: 2.5rem;
     }
@@ -1156,6 +1160,10 @@ td {
 
 /*  Do 768 PX  */
 @media (max-width: 768px) {
+    .carousel ul li h1 {
+        font-size: 2.5rem;
+    }
+
     .carousel ul li h2 {
         font-size: 2rem;
     }
@@ -1361,6 +1369,10 @@ td {
     .carousel-button.next {
         top: 520px;
     } */
+
+    .carousel ul li h1 {
+        font-size: 2rem;
+    }
 
     .carousel ul li h2 {
         font-size: 1.8rem;
