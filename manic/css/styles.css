@@ -234,7 +234,7 @@ input[type=checkbox] {
 }
 
 .carousel-button.next {
-    right: 2rem;
+    right: 1rem;
 }
 
 .carousel ul li h1 {
@@ -1503,7 +1503,7 @@ td {
     }
 
     .carousel button {
-        font-size: 3.5rem;
+        font-size: 2.7rem;
         top: 78%;
     }
 }
