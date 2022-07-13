@@ -1496,8 +1496,8 @@ td {
     }
 }
 
-/*  Do 340 PX  */
-@media (max-width: 340px) {
+/*  Do 380 PX  */
+@media (max-width: 380px) {
     .carousel ul li p {
         top: 62%;
     }
